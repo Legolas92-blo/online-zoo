@@ -386,3 +386,121 @@ body {
 	text-transform: uppercase;
 	color: #ffffff;
 }
+
+/*----------BLOCK PICK AND FEED----------------*/
+
+.pick-and-feed {
+}
+.pick-and-feed__container {
+	padding: 69px 0 100px 0;
+}
+
+.pick-and-feed__wrap {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding: 41px 50px 60px 99px;
+	border-radius: 20px;
+	background: rgba(253, 253, 255, 0.52);
+}
+.pick-and-feed__top {
+	display: flex;
+	flex-direction: column;
+}
+.pick-and-feed__title {
+	margin: 0 0 30px 0;
+	padding: 0 0 0 251px;
+	font-size: 48px;
+	line-height: 120%;
+	color: #fe9013;
+}
+.pick-and-feed__text_big {
+	margin: 0px 0px 40px 0px;
+	font-size: 24px;
+	line-height: 120%;
+}
+.pick-and-feed__text_bold {
+	margin: 0px 0px 10px 0px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 130%;
+}
+.pick-and-feed__text {
+	line-height: 130%;
+	margin: 0px 0px 61px 0px;
+}
+.pick-and-feed__text_underline {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #fe9013;
+}
+/*----------PICK AND FEED BOTTOM-----------*/
+.pick-and-feed__bottom {
+}
+.pick-and-feed__subtitle {
+	margin: 0px 0px 40px -51px;
+	font-size: 36px;
+	line-height: 130%;
+	text-align: center;
+}
+.pick-and-feed__card-wrap {
+	margin: 0px 0px 60px 0px;
+	padding: 0 99px;
+	display: flex;
+	gap: 65px;
+	position: relative;
+}
+
+.pick-and-feed__vector_icon-one {
+	position: absolute;
+	top: 24.7%;
+	left: 29.3%;
+}
+
+.pick-and-feed__vector_icon-two {
+	position: absolute;
+	top: 23.2%;
+	left: 59%;
+}
+
+.pick-and-feed__item_top {
+	margin: 0px 0px 30px 0px;
+	padding: 54px 30px;
+	width: 168px;
+	height: 168px;
+	background-color: #fff;
+	border: 1px solid #fd8d1c;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pick-and-feed__item-icon {
+}
+.pick-and-feed__item-text {
+	line-height: 140%;
+}
+
+.pick-and-feed__vector {
+}
+.pick-and-feed__vector_icon {
+	width: 69px;
+	height: 35.08px;
+}
+
+.pick-and-feed__btn {
+	max-width: 298px;
+	margin: 0 332px;
+	padding: 16px 0;
+	background: #fe9013;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pick-and-feed__btn-link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
