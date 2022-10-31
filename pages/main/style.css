@@ -88,6 +88,7 @@ html,
 body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
+	min-width: 1600px;
 	font-size: 16px;
 	color: #333b41;
 	background: linear-gradient(
@@ -257,7 +258,7 @@ body {
 	background: url(/assets/images/bg-img_flower.png) 100% 9% no-repeat;
 }
 .how-it-works__container {
-	padding: 140px 0 180px 0;
+	padding: 140px 0 177px 0;
 	display: flex;
 	justify-content: space-between;
 }
@@ -285,4 +286,103 @@ body {
 }
 .how-it-works__subtext {
 	line-height: 140%;
+}
+
+/*--------ANIMAL CARDS ----------*/
+.animal-cards {
+	background-color: #fff;
+	position: relative;
+	padding: 0 0 100px 0;
+}
+.animal__cards__bg-img-left,
+.animal__cards__bg-img-right {
+	position: absolute;
+}
+.animal__cards__bg-img-left {
+	top: 58.4%;
+	left: 0;
+}
+.animal__cards__bg-img-right {
+	top: 75%;
+	right: 0;
+}
+
+.animal-cards__arrow-left,
+.animal-cards__arrow-right {
+	width: 62px;
+	height: 62px;
+	background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+.animal-cards__arrow-left {
+	top: 36.4%;
+	left: 8.6%;
+}
+.animal-cards__arrow-right {
+	top: 36.4%;
+	left: 87.4%;
+}
+.animal-cards__items {
+	margin-bottom: 79px;
+	display: grid;
+	grid-template-columns: repeat(3, 33.333%);
+	column-gap: 9px;
+	row-gap: 20px;
+}
+
+.animal-cards__item {
+	width: 367px;
+	border: 1px solid #fe9013;
+	border-radius: 5px;
+}
+
+.animal-card__img {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+}
+.animal-card__bottom {
+	padding: 6px 12px 13px 15px;
+	display: flex;
+	justify-content: space-between;
+}
+.animal-card__bottom_wrap {
+	display: flex;
+	flex-direction: column;
+}
+.animal-card__title {
+	font-weight: 500;
+	line-height: 140%;
+	text-transform: uppercase;
+	color: #000000;
+}
+.animal-card__text {
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 120%;
+}
+.animal-card_icon {
+}
+
+.animal-cards__item-choose-favorite {
+	max-width: 298px;
+	margin: 0 auto;
+	padding: 16px 0;
+	background: #fe9013;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.animal-cards__link-choose-favorite {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
 }
