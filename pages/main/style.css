@@ -201,7 +201,7 @@ body {
 .main {
 }
 .watch-online__bg-img {
-	background: url(/assets/images/Watch\ online_Giant\ Panda.jpg) 0 0 no-repeat;
+	background: url(../assets/images/Watch\ online_Giant\ Panda.jpg) 0 0 no-repeat;
 	background-size: 100%;
 	min-height: 780px;
 }
@@ -270,7 +270,7 @@ body {
 }
 
 .how-it-works__bg-img {
-	background: url(/assets/images/bg-img_flower.png) 100% 9% no-repeat;
+	background: url(../assets/images/bg-img_flower.png) 100% 9% no-repeat;
 }
 .how-it-works__container {
 	padding: 140px 0 177px 0;
@@ -556,7 +556,7 @@ body {
 	background-color: #fff;
 }
 .testimonials__bg-img {
-	background: url("/assets/images/leav_foto.png") 100% 126% no-repeat;
+	background: url("../assets/images/leav_foto.png") 100% 126% no-repeat;
 	position: relative;
 }
 .testimonials__container {
