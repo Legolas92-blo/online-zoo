@@ -270,7 +270,7 @@ body {
 }
 
 .how-it-works__bg-img {
-	background: url(/assets/images/bg-img_flower.png) 100% 9% no-repeat;
+	background: url(../assets/images/bg-img_flower.png) 100% 9% no-repeat;
 }
 .how-it-works__container {
 	padding: 140px 0 177px 0;
