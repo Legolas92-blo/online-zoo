@@ -360,20 +360,33 @@ body {
 	border: 1px solid #fe9013;
 	border-radius: 5px;
 }
-
+.animal-cards__item:hover {
+	position: relative;
+}
 .animal-card__img {
 	border-radius: 5px 5px 0 0;
 	width: 100%;
 }
+.animal-card__img:hover {
+	transform: scale(1.02);
+}
+
 .animal-card__bottom {
 	padding: 6px 12px 13px 15px;
 	display: flex;
 	justify-content: space-between;
 }
+.animal-card__bottom:hover {
+	position: absolute;
+	transform: translateY(-50px);
+	background-color: rgb(128, 124, 124, 0.5);
+	width: 100%;
+}
 .animal-card__bottom_wrap {
 	display: flex;
 	flex-direction: column;
 }
+
 .animal-card__title {
 	font-weight: 500;
 	line-height: 140%;
