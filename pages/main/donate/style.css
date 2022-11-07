@@ -1,0 +1,333 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a {
+	color: inherit;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*-----------------------------------------------*/
+
+html,
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	min-width: 1600px;
+	font-size: 16px;
+	color: #333b41;
+	background: linear-gradient(
+			315.75deg,
+			rgba(254, 210, 144, 0.7) 30.06%,
+			#febdab 100.95%,
+			rgba(254, 210, 144, 0.7) 106.36%
+		),
+		linear-gradient(
+			315.75deg,
+			rgba(254, 189, 171, 0.74) 30.06%,
+			rgba(243, 169, 248, 0.66) 50.74%,
+			#e0d8f0 80.49%,
+			#eaf7fe 127.9%,
+			#eaf7fe 149.54%
+		),
+		linear-gradient(
+			315.75deg,
+			rgba(254, 189, 171, 0.74) 30.06%,
+			rgba(243, 169, 248, 0.66) 50.74%,
+			#e0d8f0 80.49%,
+			#eaf7fe 127.9%,
+			#eaf7fe 149.54%
+		);
+}
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+/*-----------HEADER-------------------*/
+.header {
+	margin-bottom: -196px;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
+	max-height: 80px;
+	position: relative;
+	z-index: 50;
+}
+
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+}
+.logo {
+	max-width: 82px;
+	min-height: 52px;
+	border: 1px solid #ffffff;
+	border-radius: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+.logo__text {
+	font-size: 19.0145px;
+	line-height: 120%;
+	color: #fff;
+}
+.logo__icon {
+	position: absolute;
+	top: 42%;
+	left: 5%;
+}
+.logo__icon img {
+	width: 7.03px;
+	height: 20.98px;
+}
+.menu {
+	margin-left: -32.5%;
+}
+.menu__items {
+	display: flex;
+	align-items: center;
+}
+
+.menu__item {
+	font-weight: 500;
+	line-height: 140%;
+	color: #ffffff;
+}
+.menu__item:hover {
+	color: #e47209;
+}
+
+.menu__item:not(:last-child) {
+	margin-right: 58px;
+}
+.menu__link {
+}
+.menu__link_orange {
+	background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.design {
+}
+.design__link {
+}
+/*-------BG-IMG BLOCK---------*/
+
+.main {
+}
+.donation-information {
+}
+.donation-information__wrap {
+	padding: 40px 0 60px 0px;
+}
+
+.bg-img {
+	background: url("/assets/images/Watch\ online_Giant\ Panda.jpg") no-repeat;
+	background-size: 100%;
+	min-height: 582px;
+}
+
+.donation-information__title {
+	margin: 0px 0px 10px 0px;
+	font-size: 36px;
+	line-height: 130%;
+	color: #ffffff;
+}
+.donation-information__text {
+	margin: 0px 0px 44px 0px;
+	font-weight: 500;
+	line-height: 140%;
+	color: #ffffff;
+}
+.donation-information__subtitle {
+	font-size: 36px;
+	line-height: 130%;
+	color: #fe9013;
+}
+
+/*---------PICK AND FEED BLOCK---------*/
+
+.pick-and-feed {
+}
+.pick-and-feed__container {
+	padding: 40px 92px 60px 92px;
+	background: rgba(255, 255, 255, 0.52);
+	backdrop-filter: blur(2px);
+	border-radius: 20px;
+}
+.pick-and-feed__title {
+	margin: 0px 0px 22px 0px;
+	font-size: 48px;
+	line-height: 120%;
+	text-align: center;
+	color: #fe9013;
+}
+.pick-and-feed__text {
+	margin: 0px 0px 53px 0px;
+	font-size: 24px;
+	line-height: 120%;
+}
+.pick-and-feed__img {
+	width: 545px;
+	height: 246px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr 3fr;
+	align-items: center;
+}
+
+.img__pick-and-feed_wrap-first-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.test__four {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 58px;
+	vertical-align: middle;
+}
+.img__pick-and-feed_diet-day {
+}
+.img__pick-and-feed {
+	margin: 0 auto 48px auto;
+}
+.img__pick-and-feed__text {
+	display: block;
+}
+
+.pick-and-feed__selection-slider {
+}
+.pick-and-feed__amount {
+	display: block;
+	line-height: 140%;
+	color: #000000;
+	margin: 0px 0px 17px 0px;
+}
+.pick-and-feed__choice-of-donatiot {
+}
+.pick-and-feed__panel {
+	min-width: 976px;
+	min-height: 27px;
+	padding: 0 26px;
+	background: #404950;
+	border-radius: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pick-and-feed__panel_grey {
+	height: 2px;
+	width: 100%;
+	background: #72828e;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	gap: 120px;
+}
+.pick-and-feed__radiobutton {
+}
+.radiobutton {
+}
+.radio {
+	display: none;
+}
+.pick-and-feed__panel_item {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ffee2e;
+	transform: translateY(-41%);
+}
+
+.pick-and-feed__panel_item:after {
+	width: 22.95px;
+	height: 22.95px;
+	background-color: #fe9013;
+	transform: translateY(10%);
+}
