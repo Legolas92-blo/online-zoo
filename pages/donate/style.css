@@ -202,7 +202,7 @@ body {
 .donation-information {
 }
 .donation-information__wrap {
-	padding: 40px 0 60px 0px;
+	padding: 44px 0 56px 0px;
 }
 
 .bg-img {
@@ -261,25 +261,30 @@ body {
 }
 
 .img__pick-and-feed_wrap-first-element {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 }
 
-.test__four {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 58px;
-	vertical-align: middle;
+.pick-and-feed__number {
+	padding: 60px 8px 6px 0px;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 80%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+.img__pick-and-feed__text {
+	padding: 6px 0 0 0;
+}
+
+.pick-and-feed__multiplication-sign {
+	padding: 42px 0 0 5px;
+}
+.pick-and-feed__panda {
+	padding: 7px 14px 0 0;
 }
 .img__pick-and-feed_diet-day {
 }
 .img__pick-and-feed {
-	margin: 0 auto 48px auto;
-}
-.img__pick-and-feed__text {
-	display: block;
 }
 
 .pick-and-feed__selection-slider {
@@ -323,11 +328,4 @@ body {
 	border-radius: 50%;
 	background-color: #ffee2e;
 	transform: translateY(-41%);
-}
-
-.pick-and-feed__panel_item:after {
-	width: 22.95px;
-	height: 22.95px;
-	background-color: #fe9013;
-	transform: translateY(10%);
 }
