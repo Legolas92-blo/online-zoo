@@ -206,7 +206,7 @@ body {
 }
 
 .bg-img {
-	background: url("/assets/images/Watch\ online_Giant\ Panda.jpg") no-repeat;
+	background: url("../../assets/images/Watch\ online_Giant\ Panda.jpg") no-repeat;
 	background-size: 100%;
 	min-height: 582px;
 }
