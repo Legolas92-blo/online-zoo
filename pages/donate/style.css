@@ -82,6 +82,18 @@ h6 {
 	font-weight: 400;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
 /*-----------------------------------------------*/
 
 html,
@@ -303,6 +315,7 @@ body {
 }
 
 .pick-and-feed__panel {
+	margin: 0px 0px 97px 0px;
 	min-width: 976px;
 	min-height: 27px;
 	padding: 0 26px;
@@ -385,6 +398,70 @@ body {
 
 .panel__item_input:checked + .panel__item_label::after {
 	opacity: 1;
+}
+
+.pick-and-feed__input-another-amount {
+	display: block;
+	margin: 0 auto 25px;
+	padding: 16px 9px;
+	width: 268px;
+	height: 54px;
+	border: 1px solid #929699;
+	border-radius: 2px;
+	background-color: rgba(255, 255, 255, 0.52);
+	backdrop-filter: blur(2px);
+	background: url(../../assets/icons/donate/$.svg) 97% 52% no-repeat;
+}
+.pick-and-feed__input-another-amount::placeholder {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	color: #929699;
+}
+
+.pick-and-feed__choice-of-payment-period {
+}
+.choice-of-payment-period {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+.choice-of-payment-period__input {
+	display: none;
+}
+
+.choice-of-payment-period__label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+.choice-of-payment-period__label::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #fe9013;
+	border-radius: 50%;
+	margin: 0px 10px 0px 0px;
+}
+
+.choice-of-payment-period__label::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: #4b9200;
+	opacity: 0;
+}
+
+.choice-of-payment-period__input:checked + .choice-of-payment-period__label::after {
+	opacity: 1;
+	border-color: #4b9200;
 }
 /*----------------------FOOTER----------------------------*/
 .footer {

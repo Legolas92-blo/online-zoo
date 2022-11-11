@@ -109,7 +109,15 @@
 								<label for="$25" class="panel__item_label">$25</label>
 							</div>
 					</fieldset>
-
+					<input type="number" placeholder="Another amount" class="pick-and-feed__input-another-amount">
+					<fieldset class="pick-and-feed__choice-of-payment-period choice-of-payment-period">
+						<input type="radio" id="monthly" class="choice-of-payment-period__input" name="choice of payment period"
+							value="monthly">
+						<label for="monthly" class="choice-of-payment-period__label">Monthly</label>
+						<input type="radio" id="once" class="choice-of-payment-period__input" name="choice of payment period"
+							value="once">
+						<label for="once" class="choice-of-payment-period__label">Once</label>
+					</fieldset>
 				</form>
 
 
@@ -135,8 +143,8 @@
 				<div class="footer__top_right">
 					<span class="footer__subscribe">Subscribe to our news</span>
 					<form action="#" class="footer__top_right-form">
-						<input type="text" class="footer__input" placeholder="Enter your email">
-						<input type="submit" class="footer__form-btn">
+						<input type="email" class="footer__input" placeholder="Enter your email">
+						<button type="submit" class="footer__form-btn">Submit</butt>
 					</form>
 				</div>
 			</div>
